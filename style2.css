@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    display: flex;
+}
+
+.cards{
+    display: flex;
+}
+
+.cards img{
+    width: 100px;
+    margin: 10px;
+}
+
+.divBlack img{
+    width: 300px;
+    height: 450px;
+}
+
+.deck img{
+    width: 100px;
+    height: 150px;
+}

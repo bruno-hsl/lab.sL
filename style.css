@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    }
+
+#geral{
+    
+    display: flex;
+}
+
+#cards1, #cards2, #cards3, #cards4 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#cards1 img, #cards2 img, #cards3 img, #cards4 img{
+    width: 100px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+}
+
+#olharcard img{
+    width: 42vh;
+    height: 63vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.694);
+    margin-left: 213px;
+    margin-top: 20px;
+}
+
+#botoes{
+    margin-left: 213px;
+    display: flex;
+}
+
+#botoes button, #batalhaButton {
+    background-color: rgb(27, 209, 72);
+    padding: 3px;
+    font-size: 17px;
+    margin: 2px;
+}
+
+#selecionarcard{
+    display: flex;
+    margin-left: 200px;   
+}
+
+#selecionar img{
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+}
